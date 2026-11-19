@@ -1,4 +1,6 @@
 ## Unreleased
+* Allow activesupport 8 (Rails 8.0 and 8.1): constraint is now `>= 6.1, < 9`
+* Replace `ActiveSupport::Configurable` (deprecated in Rails 8.1, removed in 8.2) with a module-level `ActiveSupport::OrderedOptions`; `Xirr.config` and `Xirr.configure` behave as before
 * Fix removal of `RubyInLine`
 * Allow activesupport 7. Fixes #30
 * Breaking: Require activesupport >= 6.1
